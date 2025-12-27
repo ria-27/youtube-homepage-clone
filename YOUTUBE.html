@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles-yt/general.css">
+<link rel="stylesheet" href="styles-yt/header.css">
+<link rel="stylesheet" href="styles-yt/video.css">
+<link rel="stylesheet" href="styles-yt/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu"  src="hamburger-menu.svg">
+            <img class="youtube-logo" src="youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="voice-icon" src="voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-class">
+                <img class="upload-icon" src="upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            
+            <img class="app-icon" src="youtube-apps.svg">
+            <div class="notifications-container">
+            <img class="notif-icon" src="notifications.svg">
+            <div class="notifications-count">3</div>
+            <div class="tooltip">Notifications</div> 
+            </div>
+            <img class="user" src="unnamed (1).jpg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+    <div class="sidebar-link">
+        <img src="home.svg">
+        <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="explore.svg">
+        <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="subscriptions.svg">
+        <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="originals.svg">
+        <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="youtube-music.svg">
+        <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="library.svg">
+        <div>Library</div>
+    </div>
+</nav>
+<main>
+    <section class="video-grid">
+     <div class="video">
+        <div class="thumb-row">
+            <a href="https://www.youtube.com/watch?v=TtPXvEcE11E" target="_blank" class="video-link">
+            <img class="thumb" src="img1.avif">
+            </a>
+            <div class="video-time">30:40</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                 <img class="profile" src="channels4_profile.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=TtPXvEcE11E" target="_blank" class="video-link">
+                <p class="title">
+                 React Tutorial Full Course - Beginner to Pro
+                </p>
+                </a>
+                <p class="who">
+                SuperSimpleDev
+                </p>
+                <p class="stats">
+                17M views &middot; 6 months ago
+                 </p>
+            </div>
+        </div>
+    </div>
+
+     <div class="video">
+        <div class="thumb-row">
+             <a href="https://www.youtube.com/watch?v=_N6j8HXPt2U" target="_blank" class="video-link">
+             <img class="thumb" src="hq720.avif">
+             </a>
+             <div class="video-time">12:16</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                <img class="profile" src="channels4_profile11.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=_N6j8HXPt2U" target="_blank" class="video-link">
+                <p class="title">
+                 4 years of coding
+                </p> 
+                </a>
+                <p class="who">
+                 Apna College
+                </p>
+                <p class="stats">
+                 10M views &middot; 3 years ago
+                </p>
+            </div> 
+        </div>
+    </div>
+
+     <div class="video">
+        <div class="thumb-row">
+            <a href="https://www.youtube.com/watch?v=kVgy1GSDHG8" target="_blank" class="video-link">
+            <img class="thumb" src="hq720 (1).avif">
+            </a>
+            <div class="video-time">34:16</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                 <img class="profile" src="thumb2.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=kVgy1GSDHG8" target="_blank" class="video-link">
+                <p class="title">
+                 Coding Interviews Be Like
+                </p>
+                </a>
+                <p class="who">
+                Nicholas T.
+                </p>
+                <p class="stats">
+                6.3M views &middot; 4 years ago
+                 </p>
+            </div>
+        </div>
+    </div>
+
+     <div class="video">
+        <div class="thumb-row">
+             <a href="https://www.youtube.com/watch?v=qL4LiFpeOZY" target="_blank" class="video-link">
+             <img class="thumb" src="hq720 (2).avif">
+             </a>
+             <div class="video-time">23:17</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                <img class="profile" src="unnamed.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=qL4LiFpeOZY" target="_blank" class="video-link">
+                <p class="title">
+                 Key & Peele's Craziest Plot Twists
+                </p> 
+                </a>
+                <p class="who">
+                 Key & Peele
+                </p>
+                <p class="stats">
+                 6.8M views &middot; 3 years ago
+                </p>
+            </div> 
+        </div>
+    </div>
+
+     <div class="video">
+        <div class="thumb-row">
+            <a href="https://www.youtube.com/watch?v=ZXHrPfWJcCI" target="_blank" class="video-link">
+            <img class="thumb" src="hq720 (3).avif">
+            </a>
+            <div class="video-time">14:20</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                 <img class="profile" src="thumb3.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=ZXHrPfWJcCI" target="_blank" class="video-link">
+                <p class="title">
+                 How To Fix Your Attention Span (before it's too late)
+                </p>
+                </a>
+                <p class="who">
+                Daniel Pink
+                </p>
+                <p class="stats">
+                1.2M views &middot; 1 month ago
+                 </p>
+            </div>
+        </div>
+    </div>
+
+     <div class="video">
+        <div class="thumb-row">
+             <a href="https://www.youtube.com/watch?v=j_KrWStXYDk" target="_blank" class="video-link">
+             <img class="thumb" src="hq720 (4).avif">
+             </a>
+             <div class="video-time">6:28</div>
+        </div>
+        <div class="grid">
+            <div class="channel-pic">
+                <img class="profile" src="channels4_profile (1).jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=j_KrWStXYDk" target="_blank" class="video-link">
+                <p class="title">
+                 How I make $10,000 a month as a STUDENT(and how you can too)
+                </p> 
+                </a>
+                <p class="who">
+                 fayefilms
+                </p>
+                <p class="stats">
+                 236k views &middot; 11 days ago
+                </p>
+            </div> 
+        </div>
+    </div>
+</section>  
+</main>      
+</body>
